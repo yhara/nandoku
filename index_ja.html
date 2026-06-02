@@ -1,16 +1,126 @@
 <!doctype html public "-//w3c//dtd html 4.0 transitional//en">
 <html>
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=iso-2022-jp">
-   <title>2026 $BFqFI%W%m%0%i%_%s%08@8l%G%6%$%s%3%s%F%9%H(B</title>
+   <meta http-equiv="Content-Type" content="text/html">
+   <title>2026年 難読プログラミング言語デザインコンテスト</title>
 </head>
 <body background="bk500.jpg">
-<a href="index.html">English</a> Japanese
+<a href="index.html">English</a> 日本語
 
-<center><b><font color="#006600"><h1>2026 $BFqFI%W%m%0%i%_%s%08@8l%G%6%$%s%3%s%F%9%H(B</h1></font></b></center>    
-    
-<hr WIDTH="100%">    
-<h2>$B%k!<%k(B</h2>
+<center><b><font color="#006600"><h1>2026年 難読プログラミング言語デザインコンテスト</h1></font></b></center>
+
+<p>
+近年、AI支援プログラミングの重要性が高まり続ける中、プログラミング言語にも新しいアイデアが求められています。可読性という枷が外された世界では、どのような言語が存在し得るでしょうか。
+</p>
+<p>
+ここに、2026年難読プログラミング言語デザインコンテストを開催いたします。本コンテストは、構文・意味論・可読性についての我々の常識に挑戦するプログラミング言語、すなわち考えさせたり、笑わせたり、正気を疑わせたりするような言語を讃えるものです。
+</p>
+
+<hr WIDTH="100%">
+<h2>ルール</h2>
+
+<ol>
+  <li>
+    応募作品は新しいプログラミング言語のデザインでなければなりません。
+    コンテスト開始日以前に公開されていてはいけません。
+  </li>
+  <li>
+    応募作品には、その言語の特徴を示すサンプルプログラムを
+    1つ以上含めなければなりません。
+  </li>
+  <li>
+    複数作品の応募が可能で、またチームの人数に制限はありません。
+  </li>
+  <li>
+    応募作品のすべてはMITライセンスで提出されなければなりません。
+  </li>
+  <li>
+    応募作品は審査員に驚き、興奮、または笑いをもたらすものでなければなりません。
+  </li>
+</ol>
+
+<hr WIDTH="100%">
+<h2>ガイドライン</h2>
+
+<p>
+(これらは厳密なルールではなく、ヒントや提案です。)
+</p>
+
+<ul>
+  <li>
+    リファレンス実装は必須ではありませんが、強く推奨されます。
+    提供する場合は、審査員がサンプルプログラムを実行できるように、
+    DockerfileかUbuntu 24.04 LTS向けのセットアップ手順のいずれかを含めてください。
+  </li>
+  <li>
+    審査員は、創造的で、独自のロジックに一貫性があり、かつ/または愉快なほど読みにくい言語を好みます。
+  </li>
+  <li>
+    あなたの言語をチューリング完全にするかどうかはあなた次第です(この用語を聞いたことがないなら、気にしないでください)。
+  </li>
+  <li>
+    公平に審査するため、審査は各応募作品の作者がわからない状態で行います。
+    そのため、提出ファイルにはあなたの身元を明かすものを含めないでください。
+  </li>
+</ul>
+
+<hr WIDTH="100%">
+<h2>応募方法</h2>
+
+<ul>
+  <li>応募作品は以下のファイルから構成されなければなりません:
+    <ul>
+      <li><code>remarks.markdown</code></li>
+      <li><code>authors.markdown</code></li>
+      <li>リファレンス実装のソースコード(推奨)</li>
+      <li>サンプルプログラム</li>
+    </ul>
+  </li>
+  <li><code>remarks.markdown</code>には以下の情報を含めてください:
+    <ul>
+      <li>あなたのプログラミング言語の名前</li>
+      <li>サンプルプログラムの実行方法</li>
+    </ul>
+  </li>
+  <li><code>authors.markdown</code>には以下の情報を含めてください(<code>remarks.markdown</code>には含めないでください):
+    <ul>
+      <li>あなたの名前(ハンドルネームでも可)</li>
+      <li>あなたの国/地域の<a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain" rel="nofollow">ccTLD</a></li>
+    </ul>
+  </li>
+  <li>応募作品を<code>entry.zip</code>という名前のzipファイルに圧縮し、<code>nandoku.submit at gmail.com</code>宛に添付ファイルとして送信してください。
+    <ul>
+      <li>メールの件名には<code>submission 2026</code>という言葉を含めてください。</li>
+      <li><a href="entry.zip"><code>entry.zip</code>の例</a>を参照してください。</li>
+    </ul>
+  </li>
+</ul>
+
+<p>
+ご質問がある場合は、`nandoku at googlegroups.com`までメールをお送りください。
+</p>
+
+<hr WIDTH="100%">
+<h2>重要な日付</h2>
+
+<ul>
+  <li>2026年6月1日: 応募受付開始</li>
+  <li>2026年10月1日: 応募締切</li>
+  <li>2026年12月: 本ウェブサイトにて結果発表</li>
+</ul>
+
+<hr WIDTH="100%">
+<h2>審査員</h2>
+
+アルファベット順。
+
+<ul>
+  <li>遠藤 侑介 (<a href="https://twitter.com/mametter">@mametter</a>。Rubyコミッタ。<a href="http://www.ioccc.org/winners.html#Yusuke_Endoh">世界No.1のIOCCCプレイヤー</a>。)</li>
+  <li>浜地 慎一郎 (<a href="https://twitter.com/shinh">@shinh</a>。<a href="http://golf.shinh.org/">anarchy golf管理人</a>。<a href="http://www.ioccc.org/winners.html#Shinichiro_Hamaji">IOCCC受賞者</a>。)</li>
+  <li>原 悠 (<a href="https://twitter.com/yhara">@yhara</a>。<a href="http://esolang-book.route477.net/">日本語の難解プログラミング言語本の著者</a>。)</li>
+  <li>Sun Park (別名 leonid。<a href="http://golf.shinh.org/u.rb?rb">初代スーパーRubyゴルファー</a>。)</li>
+  <li>Darren Smith (別名 flagitious。<a href="http://www.golfscript.com/">GolfScriptなどいくつかの難解言語の作者</a>。)</li>
+</ul>
 
 <hr WIDTH="100%">
 </body>
